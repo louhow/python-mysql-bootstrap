@@ -14,5 +14,5 @@ It...
 mkvirtualenv python-mysql-bootstrap
 pip3 install -r requirements.txt
 docker-compose up -d
-python run.py &
+python run.py
 ```

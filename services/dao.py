@@ -39,7 +39,7 @@ class Dao(object):
 
 
 class Record(Base):
-  __tablename__ = 'first_table'
+  __tablename__ = 'some_table'
   first_table_id = Column(Integer, primary_key=True, autoincrement=True, nullable=True)
   some_value = Column(String(20))
   create_time = Column(TIMESTAMP)
